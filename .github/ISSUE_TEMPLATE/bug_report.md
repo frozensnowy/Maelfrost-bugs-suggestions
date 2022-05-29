@@ -1,9 +1,9 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+about: Report a bug in Maelfrost/Icebound
+title: "[BUG]"
+labels: bug
+assignees: frozensnowy
 
 ---
 
