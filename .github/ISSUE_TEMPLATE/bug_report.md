@@ -7,32 +7,33 @@ assignees: frozensnowy
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+<!--
+Before filling a bug report, please search for existing reports and make sure it's not a duplicate.
+-->
 
-**To Reproduce**
+**Describe the bug**
+<!-- A clear and concise description of what the bug is. -->
+
+**Describe what should actually happen**
+<!-- A clear and concise description of what should happen instead. -->
+
+**Steps To Reproduce**
+<!--
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
+-->
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+<!-- A clear and concise description of what you expected to happen. -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Screenshots/videos**
+<!-- If applicable, add screenshots to help explain your problem. You can paste screenshots here with CTRL+V. -->
 
 **Additional context**
-Add any other context about the problem here.
+<!-- Add any other context about the problem here. -->
+
+**A workaround to temporarily fix or get past the issue**
+<!-- If applicable, explain a way to get around the issue -->
