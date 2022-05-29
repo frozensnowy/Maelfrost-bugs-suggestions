@@ -14,9 +14,6 @@ Before filling a bug report, please search for existing reports and make sure it
 **Describe the bug**
 <!-- A clear and concise description of what the bug is. -->
 
-**Describe what should actually happen**
-<!-- A clear and concise description of what should happen instead. -->
-
 **Steps To Reproduce**
 <!--
 Steps to reproduce the behavior:
