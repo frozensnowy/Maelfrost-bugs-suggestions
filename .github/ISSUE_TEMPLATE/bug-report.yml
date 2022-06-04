@@ -12,7 +12,7 @@ body:
       Thanks for taking the time to fill out this bug report form for Project Icebound and Maelfrost.
       Please note that reporting a bug here doesn't mean it gets fixed/can be fixed.
       Please make sure to [search for existing issues](https://github.com/frozensnowy/Maelfrost-bugs-suggestions/issues) before filing a new one!
-      ***Please create issues in English only***, (use google translate if required)
+      ***Please create these bug reports in English only***, (use google translate if required)
 - type: input
   attributes:
     label: MaelfrostOS Version
