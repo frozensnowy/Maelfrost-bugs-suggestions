@@ -53,26 +53,21 @@ body:
 
 - type: dropdown
   attributes:
-    label: OS Area(s) with issue?
-    description: What had/has issues?  Check all that apply.
+    label: OS Area(s) you'd like the change to happen in?
+    description: Where should the change occur?  Check all that apply.
     multiple: true
     options:
-      - General issue
-      - A program that ships with maelfrost
-      - Installing Maelfrost
-      - Customizing Maelfrost
-      - A third party program
-      - A setting in the OS
-      - Account related (Local & Microsoft Account)
-      - Rendering & Visual Issues
-      - Drive or Path issues
-      - Just Windows Things
-      - Performance related issues
+      - Everywhere (A major change)
+      - A program that ships with Maelfrost
+      - The installation process
+      - In the customization of Maelfrost
+      - In a file or in the registry
+      - A default setting
+      - Something visual but general (a button or an icon)
+      - Somewhere else
   validations:
     required: true
 
-   
-    
 - type: markdown
   attributes:
     value: |

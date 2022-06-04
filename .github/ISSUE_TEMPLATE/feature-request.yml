@@ -49,8 +49,7 @@ body:
       - Low
   validations:
     required: true
-   
-    
+
 - type: markdown
   attributes:
     value: |

@@ -62,7 +62,7 @@ body:
     multiple: true
     options:
       - General issue
-      - A program that ships with maelfrost
+      - A program that ships with Maelfrost
       - Installing Maelfrost
       - Customizing Maelfrost
       - A third party program
@@ -72,6 +72,7 @@ body:
       - Drive or Path issues
       - Just Windows Things
       - Performance related issues
+      - Somewhere else
   validations:
     required: true
 
