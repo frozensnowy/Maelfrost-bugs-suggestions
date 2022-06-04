@@ -1,7 +1,9 @@
 name: "⭐ Feature request"
 description: Shape the future of the project
-labels: 
-- Enhancement
+title: "[Request]: "
+labels: ["enhancement", "triage"]
+assignees:
+  - frozensnowy
 
 body:
 - type: markdown
@@ -32,7 +34,7 @@ body:
   attributes: 
     label: Additional context
     placeholder: |
-      Add any other context, screenshots or mockups for the feature request go here. If you are requesting for third-party built in software, please link the homepage.
+      Add any other context, screenshots or mockups for the feature request go here. If you are requesting for third-party to be integrated into the project, please link the homepage for it here.
   validations:
     required: false    
     
