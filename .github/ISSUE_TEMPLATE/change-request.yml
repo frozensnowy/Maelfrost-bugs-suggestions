@@ -1,7 +1,7 @@
 name: "🔨 Change request"
 description: Don't like something? Request a change!
 title: "[Please Change]: "
-labels: ["enhancement", "triage"]
+labels: ["change this please", "triage"]
 assignees:
   - frozensnowy
 
