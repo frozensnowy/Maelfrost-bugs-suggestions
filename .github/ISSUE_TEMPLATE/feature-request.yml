@@ -1,5 +1,5 @@
 name: "⭐ Feature request"
-description: Shape the future of the project!
+description: Shape the future of the project
 labels: 
 - Enhancement
 
@@ -36,7 +36,7 @@ body:
   validations:
     required: false    
     
- - type: dropdown
+- type: dropdown
   attributes:
     label: Importance
     description: Please indicate how important your problem is.
