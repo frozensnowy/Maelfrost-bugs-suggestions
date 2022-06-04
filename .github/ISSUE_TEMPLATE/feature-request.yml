@@ -1,0 +1,55 @@
+name: "⭐ Feature request"
+description: Shape the future of the project!
+labels: 
+- Enhancement
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to make a feature request for Maelfrost!
+      Please make sure to [search for existing requests](https://github.com/frozensnowy/Maelfrost-bugs-suggestions/issues) before filing a new one!
+      ***Please create issues in English only***, (use google translate if required)
+      
+- type: textarea
+  attributes: 
+    label: What new feature would you like to have added to Maelfrost?
+    placeholder: |
+      What does this new feature do? What is its purpose?
+  validations:
+    required: true
+    
+- type: textarea
+  attributes: 
+    label: Can this issue be solved with another program?
+    placeholder: |
+      If yes, please tell me if a program solves this issue and you want it integrated, or why other programs don't solve the issue.
+      EG: Yes, There are other browsers out there, but they are bloated. Integrating a lightweight, easy to run browser would be more useful.
+  validations:
+    required: true
+    
+- type: textarea
+  attributes: 
+    label: Additional context
+    placeholder: |
+      Add any other context, screenshots or mockups for the feature request go here. If you are requesting for third-party built in software, please link the homepage.
+  validations:
+    required: false    
+    
+ - type: dropdown
+  attributes:
+    label: Importance
+    description: Please indicate how important your problem is.
+    multiple: true
+    options:
+      - High
+      - Medium
+      - Low
+  validations:
+    required: true
+   
+    
+- type: markdown
+  attributes:
+    value: |
+      **Please limit one request per issue.**
