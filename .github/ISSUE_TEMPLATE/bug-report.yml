@@ -53,7 +53,7 @@ body:
     multiple: true
     options:
       - General issue
-      - A program that ships with Maelfrost
+      - A program that ships with the OS
       - Installing & Deployment
       - Customation
       - A third party program
@@ -70,7 +70,7 @@ body:
 - type: textarea
   attributes:
     label: Steps to reproduce
-    description: We highly suggest including screenshots or videos, but it's not required.
+    description: We highly suggest including screenshots or videos, but it is not required.
     placeholder: Tell us the steps required to trigger your bug.
   validations:
     required: true
@@ -92,7 +92,7 @@ body:
 - type: textarea
   attributes:
     label: Other Software
-    description: If you're reporting a bug about how Maelfrost interacts with other software, what software? What versions?
+    description: If you're reporting a bug about how the OS interacts with other software, what software? What versions?
     placeholder: |
       Google Chrome
       Microsoft Office 2019
