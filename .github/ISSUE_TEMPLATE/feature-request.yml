@@ -1,7 +1,7 @@
 name: "⭐ Feature request"
 description: Shape the future of the project
 title: "[Request]: "
-labels: ["enhancement", "triage"]
+labels: ["enhancement", "triage needed"]
 assignees:
   - frozensnowy
 

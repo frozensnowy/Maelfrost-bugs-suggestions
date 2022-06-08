@@ -1,7 +1,7 @@
 name: "🐛 Bug report"
 description: Report bugs, errors or unexpected behavior in Project Icebound or Maelfrost
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug", "triage needed"]
 assignees:
   - frozensnowy
 
