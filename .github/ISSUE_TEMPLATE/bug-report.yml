@@ -13,15 +13,6 @@ body:
       Please note that reporting a bug here doesn't mean it gets fixed/can be fixed.
       Please make sure to [search for existing issues](https://github.com/frozensnowy/Maelfrost-bugs-suggestions/issues) before filing a new one!
       ***Please create these bug reports in English only***, (use google translate if required)
-- type: input
-  attributes:
-    label: MaelfrostOS Version
-    placeholder: |
-      "1.0.0"
-    description: |
-      Can be found by opening the About Project Maelfrost applet.
-  validations:
-    required: true
     
 - type: input
   attributes:
@@ -29,19 +20,9 @@ body:
     placeholder: |
       "Windows 10 20H2 Enterprise"
     description: |
-       Can be found by opening the About Project Maelfrost applet.
+       Can be found by opening the About Project Maelfrost applet or by going into settings -> about.
   validations:
     required: true
-
-- type: input
-  attributes:
-    label: OS build
-    description: |
-      Optional - if you know what specific build or are on a preview build
-    placeholder: |
-      "22523.1000"
-  validations:
-    required: false
     
 - type: dropdown
   attributes:
@@ -55,6 +36,16 @@ body:
   validations:
     required: true
 
+- type: input
+  attributes:
+    label: OS build
+    description: |
+      Optional - if you know what specific build or are on a preview build
+    placeholder: |
+      "22523.1000"
+  validations:
+    required: false
+
 - type: dropdown
   attributes:
     label: OS Area(s) with issue?
@@ -62,9 +53,9 @@ body:
     multiple: true
     options:
       - General issue
-      - A program that ships with Maelfrost
-      - Installing Maelfrost
-      - Customizing Maelfrost
+      - A program that ships with the OS
+      - Installing & Deployment
+      - Customation
       - A third party program
       - A setting in the OS
       - Account related (Local & Microsoft Account)
@@ -79,7 +70,7 @@ body:
 - type: textarea
   attributes:
     label: Steps to reproduce
-    description: We highly suggest including screenshots or videos, but it's not required.
+    description: We highly suggest including screenshots or videos, but it is not required.
     placeholder: Tell us the steps required to trigger your bug.
   validations:
     required: true
@@ -101,7 +92,7 @@ body:
 - type: textarea
   attributes:
     label: Other Software
-    description: If you're reporting a bug about how Maelfrost interacts with other software, what software? What versions?
+    description: If you're reporting a bug about how the OS interacts with other software, what software? What versions?
     placeholder: |
       Google Chrome
       Microsoft Office 2019
